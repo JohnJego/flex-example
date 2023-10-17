@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(202, 168, 174);
+
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    border-radius: 16px;
+
+}
+.col-1{
+    flex: 30%;
+    background-color: white;
+    margin: 500px 0px 500px 250px;
+}
+.col-2{
+    flex: 50%;
+    background-color: white;
+    margin: 500px 300px 500px 0px;
+}
+.btn{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: palevioletred;
+    border: none;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+}
+.price{
+    color: palevioletred;
+}
+.title{
+    color: black;
+}
+.first{
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 40px;
+    font-weight: 50;
+}
+.second{
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 40px;
+    font-weight: 100;
+}
+h1{
+    margin-top: 40px;
+    margin-left: 40px;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 3000;
+}
